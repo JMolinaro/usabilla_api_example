@@ -3,7 +3,7 @@
 **3 simple steps!**
 * Clone this repository.
 * Run the bundle install command.
-* Follow the configuration step below.
+* Configure the App!
 
 #Configuration
 
