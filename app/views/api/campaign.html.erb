@@ -1,0 +1,7 @@
+<h1>Campaigns</h1>
+<% @campaigns.each do |campaign| %>
+    <div class="campaign">
+      <div class="id"><%= campaign.id %></div>
+      <div class="name"><%= campaign.name %></div>
+    </div>
+<% end %>
