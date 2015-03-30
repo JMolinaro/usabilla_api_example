@@ -80,5 +80,4 @@ Rails.application.configure do
   #Usabilla configurations
   UsabillaApi.configuration.access_key = 'YOUR-ACCESS-KEY'
   UsabillaApi.configuration.secret_key = 'YOUR-SECRET-KEY'
-  UsabillaApi.configuration.json_response = false
 end

@@ -1,5 +1,5 @@
 <h1>Campaign Results</h1>
-<% @campaign_results.each do |campaign| %>
+<% @campaign_results.items.each do |campaign| %>
     <div class="campaign-result">
       <div class="id"><%= campaign.id %></div>
       <div class="name"><%= campaign.location %></div>

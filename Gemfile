@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 
 # Usabilla API Gem
-gem 'usabilla_api', '~> 1.0'
+gem 'usabilla_api', '~> 1.1'
 
 gem 'sqlite3'
 gem 'turbolinks'

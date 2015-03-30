@@ -1,5 +1,5 @@
 <h1>Feedback</h1>
-<% @feedback.each do |feedback| %>
+<% @feedback.items.each do |feedback| %>
     <div class="feedback">
       <div class="id"><%= feedback.id %></div>
       <div class="name"><%= feedback.comment %></div>

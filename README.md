@@ -17,10 +17,6 @@ UsabillaApi.configuration.secret_key = 'YOUR-SECRET-KEY'
 ```
 Get your access and secret key here: [Usabilla Member API](https://usabilla.com/member/api)
 
-You can either return an Object (default) or a the original JSON string.
-```
-UsabillaApi.configuration.json_response = true
-```
 Full Usabilla API documentation: [Usabilla API](https://usabilla.com/api)
 
 #Usage
@@ -35,6 +31,8 @@ Once you have finished the installation and configuration.
 * /api/button/:id/feedback
 * /api/campaign
 * /api/campaign/:id/results
+
+(To view the json response, add .json to the end of any of the above urls.)
 
 ######Accepted Query String Parameters
 
