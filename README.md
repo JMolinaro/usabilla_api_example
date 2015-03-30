@@ -5,8 +5,6 @@
 * Run the bundle install command.
 * Follow the configuration step below.
 
-Once you have cloned the repository, navigate to the directory in your console, run 'rails s' and then go to localhost:3000 in your browser.
-
 #Configuration
 
 ######Adjust these lines to the appropriate config/environments file
@@ -26,6 +24,11 @@ UsabillaApi.configuration.json_response = true
 Full Usabilla API documentation: [Usabilla API](https://usabilla.com/api)
 
 #Usage
+
+Once you have finished the installation and configuration.
+* Navigate to the directory in your terminal/cmd window.
+* Run 'rails s'.
+* Then go to ' localhost:3000 ' in your browser.
 
 4 API Pages have already been setup and can be accessed through the following routes;
 * /api/button
