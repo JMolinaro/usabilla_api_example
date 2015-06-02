@@ -4,7 +4,7 @@ class ApiController < ApplicationController
   end
 
   def button
-    @buttons = UsabillaApi.button.retrieve(params)
+    @buttons = UsabillaApi.websites_button.retrieve(params)
 
     respond_to do |format|
       format.html
@@ -13,7 +13,7 @@ class ApiController < ApplicationController
   end
 
   def feedback
-    @feedback = UsabillaApi.button.feedback(params)
+    @feedback = UsabillaApi.websites_feedback.retrieve(params)
 
     respond_to do |format|
       format.html
@@ -22,7 +22,7 @@ class ApiController < ApplicationController
   end
 
   def campaign
-    @campaigns = UsabillaApi.campaign.retrieve(params)
+    @campaigns = UsabillaApi.websites_campaign.retrieve(params)
 
     respond_to do |format|
       format.html
@@ -31,7 +31,7 @@ class ApiController < ApplicationController
   end
 
   def results
-    @campaign_results = UsabillaApi.campaign.results(params)
+    @campaign_results = UsabillaApi.websites_campaign_results.retrieve(params)
 
     respond_to do |format|
       format.html
